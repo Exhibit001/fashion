@@ -2,30 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fashion Looks | Exhibit001</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Showcase | Exhibit001</title>
   <link rel="canonical" href="https://exhibit001.fashion/" />
 
   <!-- ✅ SEO Meta -->
-  <meta name="description" content="Exhibit001's signature looks — explore the final, styled outcomes of each handmade garment in full fashion form." />
-  <meta name="keywords" content="Exhibit001 fashion, styled looks, handmade fashion, streetwear archive, NYC alternative clothing" />
+  <meta name="description" content="See the final fashion pieces of Exhibit001 — handmade looks, street-style footage, and styled visuals." />
+  <meta name="keywords" content="Exhibit001 fashion, NYC fashion archive, handmade clothing, streetwear visuals, styled outfits, street looks" />
   <meta name="author" content="Exhibit001" />
 
   <!-- ✅ Open Graph -->
-  <meta property="og:title" content="Fashion Looks | Exhibit001" />
-  <meta property="og:description" content="Discover styled visuals of Exhibit001’s handmade clothing. Photographed and filmed fashion drops from NYC." />
+  <meta property="og:title" content="Exhibit001 — Fashion Showcase" />
+  <meta property="og:description" content="Explore finished fashion visuals from Exhibit001. Handmade, raw, and captured in NYC." />
   <meta property="og:image" content="https://exhibit001.com/cover.jpg" />
   <meta property="og:url" content="https://exhibit001.fashion" />
   <meta property="og:type" content="website" />
 
-  <!-- ✅ Schema -->
+  <!-- ✅ Schema Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Exhibit001 Fashion Looks",
+    "@type": "WebSite",
+    "name": "Exhibit001 Fashion",
     "url": "https://exhibit001.fashion",
-    "description": "Explore full-look styled visuals from Exhibit001’s fashion archive — captured in NYC with artistic direction.",
+    "description": "Final looks from Exhibit001: handmade streetwear, styled visuals, and raw expression.",
     "publisher": {
       "@type": "Organization",
       "name": "Exhibit001"
@@ -33,66 +33,56 @@
   }
   </script>
 
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
+      padding: 0;
       background: black;
       color: white;
-      font-family: 'Press Start 2P', cursive;
+      font-family: 'Press Start 2P', monospace;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
+      height: 100vh;
       text-align: center;
-      padding: 20px;
     }
 
     h1 {
-      font-size: 18px;
-      margin-bottom: 40px;
-      text-shadow: 0 0 4px #0ff;
+      font-size: 20px;
+      margin-bottom: 20px;
     }
 
-    .fashion-preview {
-      border: 3px dotted white;
-      padding: 36px;
-      max-width: 480px;
-      width: 100%;
+    .pixel-box {
+      border: 4px dashed white;
+      padding: 40px 20px;
+      max-width: 90%;
+      background: rgba(255, 255, 255, 0.05);
     }
 
-    .fashion-preview p {
-      font-size: 12px;
-      line-height: 1.8;
+    .coming-soon {
+      font-size: 16px;
+      margin-top: 20px;
+      animation: blink 1.4s steps(1) infinite;
     }
 
-    .placeholder-media {
-      margin-top: 24px;
-      width: 100%;
-      aspect-ratio: 4 / 5;
-      background: #111;
-      border: 2px solid #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #aaa;
-      font-size: 10px;
+    @keyframes blink {
+      50% { opacity: 0; }
     }
 
     @media (min-width: 600px) {
-      h1 { font-size: 28px; }
-      .fashion-preview p { font-size: 14px; }
-      .placeholder-media { font-size: 14px; }
+      h1 { font-size: 32px; }
+      .coming-soon { font-size: 20px; }
     }
   </style>
 </head>
 <body>
-  <h1>🧵 Fashion Looks Coming Soon</h1>
-  <div class="fashion-preview">
-    <p>Styled shots of Exhibit001 garments will appear here. Full looks, textures, and moments — captured in the streets of NYC.</p>
-    <div class="placeholder-media">[ LOOK IMAGE / VIDEO ]</div>
+  <div class="pixel-box">
+    <h1>EXHIBIT001 // FASHION</h1>
+    <p class="coming-soon">COMING SOON...</p>
   </div>
 </body>
 </html>
